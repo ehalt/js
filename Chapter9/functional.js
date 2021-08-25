@@ -321,6 +321,6 @@
 // console.log(person2.characteristics.height)
 
 
-console.log("checking dude!");
+
 
 
