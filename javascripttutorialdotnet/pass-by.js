@@ -13,11 +13,43 @@
 
 
 
-function square(x) {
-    x = x * x;
-    return x;
-}
+// function square(x) {
+//     x = x * x;
+//     return x;
+// }
 
-let y = 10;
-let result = square(y);
-console.log(result);
+// let y = 10;
+// let result = square(y);
+// console.log(result);
+
+
+
+// let person = {
+//     name : 'fahim',
+//     age : 21,
+// };
+
+// function increaseAge(obj) {
+//     obj.age += 1;
+// }
+
+// increaseAge(person);
+// console.log(person);
+
+
+// let person = {
+//     name : 'shakil',
+//     age : 20,
+// };
+
+// function increaseAge(obj) {
+//     obj.age += 1;
+//     obj = {name: 'fahim', age: 21};
+// }
+
+// increaseAge(person);
+// console.log(person);
+
+
+
+
