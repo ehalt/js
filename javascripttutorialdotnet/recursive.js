@@ -14,3 +14,29 @@
 //     }
 // }
 // countDown(5);
+
+
+
+// from [learn with sumit]
+
+
+// let total = 0;
+// let n = 3;
+// for(let i = 1; i <= n; i++) {
+//     total += i;
+// }
+// console.log(total);
+
+
+
+// function sum(n) {
+//     if(n === 0) {
+//         return 0;
+//     }
+//     else {
+//         return sum(n - 1) + n;
+//     }
+// }
+// console.log(sum(5));
+
+
