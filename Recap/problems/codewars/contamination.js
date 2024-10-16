@@ -17,3 +17,28 @@ function sol(text_before, ch) {
 }
 console.log(sol("abc", 'z'));
 
+
+
+// another approach 
+
+
+function sol(text_before, ch) {
+    return text_before.replace(/./g, ch);
+}
+console.log(sol("abc", 'z'));
+
+
+// another approach 
+
+function sol(text_before, ch) {
+    return text_before.split("").fill(ch).join("");
+}
+// console.log(sol("abc", 'z'));
+
+let text = 'abc';
+let result = text.split('').fill('z').join('');
+console.log(result);
+
+
+
+
