@@ -22,4 +22,17 @@ console.log(grow([1, 2, 3, 4]));
 
 
 
+// solution : 3
+const grow = (nums) => nums.reduce((product, num) => product * num, 1);
+// the 1 is for avoiding empty array error 
+console.log(grow([1, 2, 3, 4]));
+
+
+
+// solution : 4
+
+const grow = x => eval(x.join("*"));
+console.log(grow([1, 2, 3, 4]));
+
+
 
