@@ -28,3 +28,37 @@ console.log(add(5, 3));
 console.log(sub(5, 3));
 
 
+
+
+
+
+// updated math.mjs
+
+export const add = function(a, b) {
+    return a + b;
+}
+
+export const sub = function(a, b) {
+    return a - b;
+}
+
+export default {
+    add,
+    sub
+}
+
+
+
+
+
+
+// updated main.mjs 
+
+import {add, sub} from './math.mjs'
+
+console.log(add(5, 3));
+console.log(sub(5, 3));
+
+
+
+
